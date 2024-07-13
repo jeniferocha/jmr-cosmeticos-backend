@@ -4,8 +4,8 @@ const produtoSchema = new mongoose.Schema(
   {
     id: { type: String },
     name: { type: String },
-    email: { type: String },
-    age: { type: Number },
+    imageURL: { type: String },
+    price: { type: Number },
   },
   {
     versionKey: false,
