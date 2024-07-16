@@ -3,9 +3,9 @@ import mongoose from "mongoose";
 const produtoSchema = new mongoose.Schema(
   {
     id: { type: String },
-    name: { type: String },
-    imageURL: { type: String },
-    price: { type: Number },
+    name: { type: String, required: true },
+    imageURL: { type: String, required: true },
+    price: { type: Number, required: true },
   },
   {
     versionKey: false,
